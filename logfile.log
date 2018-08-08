@@ -1,0 +1,99 @@
+Not concurrent
+INFO:root:START make_thumbnails
+INFO:root:beginning image downloads
+INFO:root:downloaded 26 images in 14.3350874 seconds
+INFO:root:beginning image resizing
+INFO:root:created 26 thumbnails in 2.8798548999999998 seconds
+INFO:root:END make_thumbnails in 17.2179027 seconds
+
+Not concurrent
+INFO:root:START make_thumbnails
+INFO:root:beginning image downloads
+INFO:root:downloaded 26 images in 12.4241708 seconds
+INFO:root:beginning image resizing
+INFO:root:created 26 thumbnails in 2.3136460000000003 seconds
+INFO:root:END make_thumbnails in 14.7400392 seconds
+
+Not concurrent
+INFO:root:START make_thumbnails
+INFO:root:beginning image downloads
+INFO:root:downloaded 26 images in 11.0767104 seconds
+INFO:root:beginning image resizing
+INFO:root:created 26 thumbnails in 2.3049818 seconds
+INFO:root:END make_thumbnails in 13.3848684 seconds
+
+Not concurrent
+INFO:root:START make_thumbnails
+INFO:root:beginning image downloads
+INFO:root:downloaded 26 images in 9.8038096 seconds
+INFO:root:beginning image resizing
+INFO:root:created 26 thumbnails in 2.4105790000000002 seconds
+INFO:root:END make_thumbnails in 12.2167392 seconds
+
+Not concurrent
+INFO:root:START make_thumbnails
+INFO:root:beginning image downloads
+INFO:root:downloaded 26 images in 10.9208855 seconds
+INFO:root:beginning image resizing
+INFO:root:created 26 thumbnails in 2.4434305 seconds
+INFO:root:END make_thumbnails in 13.366502599999999 seconds
+
+
+[MainThread, 2018-08-08 14:50:34,670, INFO] START make_thumbnails
+[MainThread, 2018-08-08 14:50:34,671, INFO] beginning image downloads
+[Thread-1, 2018-08-08 14:50:34,671, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/2fu69d8lfesbhru/pexels-photo-48603.jpeg
+[Thread-2, 2018-08-08 14:50:34,673, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/zch88m6sb8a7bm1/pexels-photo-134392.jpeg
+[Thread-3, 2018-08-08 14:50:34,673, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/lsr6dxw5m2ep5qt/pexels-photo-135130.jpeg
+[Thread-4, 2018-08-08 14:50:34,674, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/6xinfm0lcnbirb9/pexels-photo-167300.jpeg
+[Thread-5, 2018-08-08 14:50:34,674, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/2dp2hli32h9p0y6/pexels-photo-167921.jpeg
+[Thread-6, 2018-08-08 14:50:34,674, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/fjb1m3grcrceqo2/pexels-photo-173125.jpeg
+[Thread-7, 2018-08-08 14:50:34,675, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/56u8p4oplagc4bp/pexels-photo-185934.jpeg
+[Thread-8, 2018-08-08 14:50:34,676, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/2s1x7wz4sdvxssr/pexels-photo-192454.jpeg
+[Thread-9, 2018-08-08 14:50:34,676, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/1gjphqnllzm10hh/pexels-photo-193038.jpeg
+[Thread-10, 2018-08-08 14:50:34,676, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/pcjz40c8pxpy057/pexels-photo-193043.jpeg
+[Thread-11, 2018-08-08 14:50:34,677, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/hokdfk7y8zmwe96/pexels-photo-207962.jpeg
+[Thread-12, 2018-08-08 14:50:34,677, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/k2tk2co7r18juy7/pexels-photo-247917.jpeg
+[Thread-13, 2018-08-08 14:50:34,677, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/m4xjekvqk4rksbx/pexels-photo-247932.jpeg
+[Thread-14, 2018-08-08 14:50:34,678, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/znmswtwhcdbpc10/pexels-photo-265186.jpeg
+[Thread-15, 2018-08-08 14:50:34,678, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/jgb6n4esquhh4gu/pexels-photo-302899.jpeg
+[Thread-16, 2018-08-08 14:50:34,678, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/rjuggi2ubc1b3bk/pexels-photo-317156.jpeg
+[Thread-17, 2018-08-08 14:50:34,678, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/cpaog2nwplilrz9/pexels-photo-317383.jpeg
+[Thread-18, 2018-08-08 14:50:34,679, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/16x2b6ruk18gji5/pexels-photo-320007.jpeg
+[Thread-19, 2018-08-08 14:50:34,679, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/xqzqzjkcwl52en0/pexels-photo-322207.jpeg
+[Thread-20, 2018-08-08 14:50:34,679, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/frclthpd7t8exma/pexels-photo-323503.jpeg
+[Thread-21, 2018-08-08 14:50:34,680, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/7ixez07vnc3jeyg/pexels-photo-324030.jpeg
+[Thread-22, 2018-08-08 14:50:34,680, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/1xlgrfy861nyhox/pexels-photo-324655.jpeg
+[Thread-23, 2018-08-08 14:50:34,680, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/v1b03d940lop05d/pexels-photo-324658.jpeg
+[Thread-24, 2018-08-08 14:50:34,680, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/ehrm5clkucbhvi4/pexels-photo-325520.jpeg
+[Thread-25, 2018-08-08 14:50:34,681, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/l7ga4ea98hfl49b/pexels-photo-333529.jpeg
+[Thread-26, 2018-08-08 14:50:34,682, INFO] downloading image at URL https://dl.dropboxusercontent.com/s/rleff9tx000k19j/pexels-photo-341520.jpeg
+[Thread-18, 2018-08-08 14:50:35,649, INFO] image daved to .\incoming\pexels-photo-320007.jpeg
+[Thread-12, 2018-08-08 14:50:35,671, INFO] image daved to .\incoming\pexels-photo-247917.jpeg
+[Thread-15, 2018-08-08 14:50:35,677, INFO] image daved to .\incoming\pexels-photo-302899.jpeg
+[Thread-26, 2018-08-08 14:50:35,688, INFO] image daved to .\incoming\pexels-photo-341520.jpeg
+[Thread-7, 2018-08-08 14:50:35,691, INFO] image daved to .\incoming\pexels-photo-185934.jpeg
+[Thread-21, 2018-08-08 14:50:35,695, INFO] image daved to .\incoming\pexels-photo-324030.jpeg
+[Thread-20, 2018-08-08 14:50:35,699, INFO] image daved to .\incoming\pexels-photo-323503.jpeg
+[Thread-23, 2018-08-08 14:50:35,706, INFO] image daved to .\incoming\pexels-photo-324658.jpeg
+[Thread-11, 2018-08-08 14:50:35,706, INFO] image daved to .\incoming\pexels-photo-207962.jpeg
+[Thread-8, 2018-08-08 14:50:35,706, INFO] image daved to .\incoming\pexels-photo-192454.jpeg
+[Thread-13, 2018-08-08 14:50:35,709, INFO] image daved to .\incoming\pexels-photo-247932.jpeg
+[Thread-24, 2018-08-08 14:50:35,710, INFO] image daved to .\incoming\pexels-photo-325520.jpeg
+[Thread-2, 2018-08-08 14:50:35,714, INFO] image daved to .\incoming\pexels-photo-134392.jpeg
+[Thread-5, 2018-08-08 14:50:35,716, INFO] image daved to .\incoming\pexels-photo-167921.jpeg
+[Thread-1, 2018-08-08 14:50:35,737, INFO] image daved to .\incoming\pexels-photo-48603.jpeg
+[Thread-19, 2018-08-08 14:50:35,739, INFO] image daved to .\incoming\pexels-photo-322207.jpeg
+[Thread-17, 2018-08-08 14:50:35,742, INFO] image daved to .\incoming\pexels-photo-317383.jpeg
+[Thread-10, 2018-08-08 14:50:35,744, INFO] image daved to .\incoming\pexels-photo-193043.jpeg
+[Thread-9, 2018-08-08 14:50:35,776, INFO] image daved to .\incoming\pexels-photo-193038.jpeg
+[Thread-16, 2018-08-08 14:50:35,796, INFO] image daved to .\incoming\pexels-photo-317156.jpeg
+[Thread-22, 2018-08-08 14:50:35,797, INFO] image daved to .\incoming\pexels-photo-324655.jpeg
+[Thread-3, 2018-08-08 14:50:35,806, INFO] image daved to .\incoming\pexels-photo-135130.jpeg
+[Thread-6, 2018-08-08 14:50:35,813, INFO] image daved to .\incoming\pexels-photo-173125.jpeg
+[Thread-14, 2018-08-08 14:50:35,842, INFO] image daved to .\incoming\pexels-photo-265186.jpeg
+[Thread-25, 2018-08-08 14:50:35,862, INFO] image daved to .\incoming\pexels-photo-333529.jpeg
+[Thread-4, 2018-08-08 14:50:35,873, INFO] image daved to .\incoming\pexels-photo-167300.jpeg
+[MainThread, 2018-08-08 14:50:35,873, INFO] downloaded 26 images in 1.202228 seconds
+[MainThread, 2018-08-08 14:50:35,873, INFO] END make_thumbnails in 1.202792 seconds
+
+

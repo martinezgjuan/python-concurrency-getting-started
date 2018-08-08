@@ -1,14 +1,17 @@
 # thumbnail_maker.py
-import time
-import os
 import logging
+import os
+import time
+import threading
 from urllib.parse import urlparse
 from urllib.request import urlretrieve
 
 import PIL
 from PIL import Image
 
-logging.basicConfig(filename='logfile.log', level=logging.DEBUG)
+FORMAT = "[%(threadName)s, %(asctime)s, %(levelname)s] %(message)s"
+logging.basicConfig(filename='logfile.log', level=logging.DEBUG, format=FORMAT)
+
 
 class ThumbnailMakerService(object):
     def __init__(self, home_dir='.'):
@@ -16,19 +19,31 @@ class ThumbnailMakerService(object):
         self.input_dir = self.home_dir + os.path.sep + 'incoming'
         self.output_dir = self.home_dir + os.path.sep + 'outgoing'
 
+    def download_image(self, url):
+        # download each image and save to the input dir
+        logging.info("downloading image at URL " + url)
+        img_filename = urlparse(url).path.split('/')[-1]
+        urlretrieve(url, self.input_dir + os.path.sep + img_filename)
+        logging.info("image saved to " + self.input_dir + os.path.sep + img_filename)
+
     def download_images(self, img_url_list):
         # validate inputs
         if not img_url_list:
             return
         os.makedirs(self.input_dir, exist_ok=True)
-        
+
         logging.info("beginning image downloads")
 
         start = time.perf_counter()
+        threads = []
         for url in img_url_list:
-            # download each image and save to the input dir 
-            img_filename = urlparse(url).path.split('/')[-1]
-            urlretrieve(url, self.input_dir + os.path.sep + img_filename)
+            t = threading.Thread(target=self.download_image, args=(url,))
+            t.start()
+            threads.append(t)
+
+        for t in threads:
+            t.join()
+
         end = time.perf_counter()
 
         logging.info("downloaded {} images in {} seconds".format(len(img_url_list), end - start))
@@ -53,8 +68,8 @@ class ThumbnailMakerService(object):
                 hsize = int((float(img.size[1]) * float(wpercent)))
                 # perform resizing
                 img = img.resize((basewidth, hsize), PIL.Image.LANCZOS)
-                
-                # save the resized image to the output dir with a modified file name 
+
+                # save the resized image to the output dir with a modified file name
                 new_filename = os.path.splitext(filename)[0] + \
                     '_' + str(basewidth) + os.path.splitext(filename)[1]
                 img.save(self.output_dir + os.path.sep + new_filename)
@@ -69,8 +84,7 @@ class ThumbnailMakerService(object):
         start = time.perf_counter()
 
         self.download_images(img_url_list)
-        self.perform_resizing()
+        # self.perform_resizing()
 
         end = time.perf_counter()
-        logging.info("END make_thumbnails in {} seconds".format(end - start))
-    
+        logging.info("END make_thumbnails in {} seconds\n\n".format(end - start))
