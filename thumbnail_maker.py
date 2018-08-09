@@ -2,9 +2,10 @@
 import logging
 import os
 import time
-import threading
 from urllib.parse import urlparse
 from urllib.request import urlretrieve
+import concurrent.futures
+import asyncio
 
 import PIL
 from PIL import Image
@@ -18,6 +19,11 @@ class ThumbnailMakerService(object):
         self.home_dir = home_dir
         self.input_dir = self.home_dir + os.path.sep + 'incoming'
         self.output_dir = self.home_dir + os.path.sep + 'outgoing'
+        self._event_loop = asyncio.get_event_loop()
+        self._executor = concurrent.futures.ThreadPoolExecutor()
+
+    async def download_image_async(self, url):
+        return await self._event_loop.run_in_executor(self._executor, self.download_image, url)
 
     def download_image(self, url):
         # download each image and save to the input dir
@@ -35,14 +41,11 @@ class ThumbnailMakerService(object):
         logging.info("beginning image downloads")
 
         start = time.perf_counter()
-        threads = []
+        futures = []
         for url in img_url_list:
-            t = threading.Thread(target=self.download_image, args=(url,))
-            t.start()
-            threads.append(t)
+            futures.append(asyncio.ensure_future(self.download_image_async(url)))
 
-        for t in threads:
-            t.join()
+        self._event_loop.run_until_complete(futures)
 
         end = time.perf_counter()
 

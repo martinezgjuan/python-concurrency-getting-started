@@ -96,4 +96,6 @@ INFO:root:END make_thumbnails in 13.366502599999999 seconds
 [MainThread, 2018-08-08 14:50:35,873, INFO] downloaded 26 images in 1.202228 seconds
 [MainThread, 2018-08-08 14:50:35,873, INFO] END make_thumbnails in 1.202792 seconds
 
-
+[MainThread, 2018-08-09 13:28:15,329, DEBUG] Using selector: SelectSelector
+[MainThread, 2018-08-09 13:28:15,330, INFO] START make_thumbnails
+[MainThread, 2018-08-09 13:28:15,330, INFO] beginning image downloads
