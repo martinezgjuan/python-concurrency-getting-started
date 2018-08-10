@@ -1258,3 +1258,231 @@ o-134392.jpeg
 [9360, MainThread, 2018-08-10 08:00:15,307, INFO] beginning image resizing
 [11984, MainThread, 2018-08-10 08:00:15,310, INFO] beginning image resizing
 [18632, MainThread, 2018-08-10 08:00:15,339, INFO] beginning image resizing
+[4912, MainThread, 2018-08-10 08:30:54,012, INFO] START make_thumbnails
+[4912, MainThread, 2018-08-10 08:30:54,012, INFO] Num processes: 4
+[4912, MainThread, 2018-08-10 08:30:54,068, INFO] beginning image downloads
+[4912, MainThread, 2018-08-10 08:30:54,068, DEBUG] Using selector: SelectSelector
+[4912, MainThread, 2018-08-10 08:30:54,074, INFO] Beginning downloading image pexels-photo-48603.jpeg
+[18892, MainThread, 2018-08-10 08:30:55,129, INFO] beginning image resizing
+[14076, MainThread, 2018-08-10 08:30:55,169, INFO] beginning image resizing
+[3448, MainThread, 2018-08-10 08:30:55,169, INFO] beginning image resizing
+[15404, MainThread, 2018-08-10 08:30:55,179, INFO] beginning image resizing
+[4912, MainThread, 2018-08-10 08:30:55,875, INFO] Finished downloading image pexels-photo-48603.jpeg
+[4912, MainThread, 2018-08-10 08:30:55,875, INFO] Beginning downloading image pexels-photo-134392.jpeg
+[18892, MainThread, 2018-08-10 08:30:56,241, INFO] done resizing image pexels-photo-48603.jpeg
+[4912, MainThread, 2018-08-10 08:30:57,105, INFO] Finished downloading image pexels-photo-134392.jpeg
+[4912, MainThread, 2018-08-10 08:30:57,106, INFO] Beginning downloading image pexels-photo-135130.jpeg
+[14076, MainThread, 2018-08-10 08:30:57,277, INFO] done resizing image pexels-photo-134392.jpeg
+[4912, MainThread, 2018-08-10 08:30:58,011, INFO] Finished downloading image pexels-photo-135130.jpeg
+[3448, MainThread, 2018-08-10 08:30:58,012, INFO] resizing image pexels-photo-135130.jpeg
+[4912, MainThread, 2018-08-10 08:30:58,012, INFO] Beginning downloading image pexels-photo-167300.jpeg
+[3448, MainThread, 2018-08-10 08:30:58,244, INFO] done resizing image pexels-photo-135130.jpeg
+[4912, MainThread, 2018-08-10 08:30:58,369, INFO] Finished downloading image pexels-photo-167300.jpeg
+[15404, MainThread, 2018-08-10 08:30:58,370, INFO] resizing image pexels-photo-167300.jpeg
+67921.jpeg
+[15404, MainThread, 2018-08-10 08:30:58,638, INFO] done resizing image pexels-photo-167300.jpeg
+[4912, MainThread, 2018-08-10 08:30:58,807, INFO] Finished downloading image pexels-photo-167921.jpeg
+[4912, MainThread, 2018-08-10 08:30:58,808, INFO] Beginning downloading image pexels-photo-173125.jpeg
+[18892, MainThread, 2018-08-10 08:30:58,808, INFO] resizing image pexels-photo-167921.jpeg
+[18892, MainThread, 2018-08-10 08:30:59,029, INFO] done resizing image pexels-photo-167921.jpeg
+[4912, MainThread, 2018-08-10 08:30:59,322, INFO] Finished downloading image pexels-photo-173125.jpeg
+[14076, MainThread, 2018-08-10 08:30:59,323, INFO] resizing image pexels-photo-173125.jpeg
+[4912, MainThread, 2018-08-10 08:30:59,323, INFO] Beginning downloading image pexels-photo-185934.jpeg
+[14076, MainThread, 2018-08-10 08:30:59,472, INFO] done resizing image pexels-photo-173125.jpeg
+[4912, MainThread, 2018-08-10 08:30:59,646, INFO] Finished downloading image pexels-photo-185934.jpeg
+[3448, MainThread, 2018-08-10 08:30:59,647, INFO] resizing image pexels-photo-185934.jpeg
+192454.jpeg
+[3448, MainThread, 2018-08-10 08:30:59,780, INFO] done resizing image pexels-photo-185934.jpeg
+[4912, MainThread, 2018-08-10 08:31:00,059, INFO] Finished downloading image pexels-photo-192454.jpeg
+[15404, MainThread, 2018-08-10 08:31:00,059, INFO] resizing image pexels-photo-192454.jpeg
+93038.jpeg
+[15404, MainThread, 2018-08-10 08:31:00,265, INFO] done resizing image pexels-photo-192454.jpeg
+[4912, MainThread, 2018-08-10 08:31:00,813, INFO] Finished downloading image pexels-photo-193038.jpeg
+[18892, MainThread, 2018-08-10 08:31:00,814, INFO] resizing image pexels-photo-193038.jpeg
+[4912, MainThread, 2018-08-10 08:31:00,814, INFO] Beginning downloading image pexels-photo-193043.jpeg
+[18892, MainThread, 2018-08-10 08:31:00,967, INFO] done resizing image pexels-photo-193038.jpeg
+[4912, MainThread, 2018-08-10 08:31:01,361, INFO] Finished downloading image pexels-photo-193043.jpeg
+[14076, MainThread, 2018-08-10 08:31:01,362, INFO] resizing image pexels-photo-193043.jpeg
+[4912, MainThread, 2018-08-10 08:31:01,363, INFO] Beginning downloading image pexels-photo-207962.jpeg
+[14076, MainThread, 2018-08-10 08:31:01,745, INFO] done resizing image pexels-photo-193043.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,002, INFO] Finished downloading image pexels-photo-207962.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,002, INFO] Beginning downloading image pexels-photo-247917.jpeg
+[3448, MainThread, 2018-08-10 08:31:02,093, INFO] done resizing image pexels-photo-207962.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,378, INFO] Finished downloading image pexels-photo-247917.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,379, INFO] Beginning downloading image pexels-photo-247932.jpeg
+[15404, MainThread, 2018-08-10 08:31:02,379, INFO] resizing image pexels-photo-247917.jpeg
+[15404, MainThread, 2018-08-10 08:31:02,584, INFO] done resizing image pexels-photo-247917.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,816, INFO] Finished downloading image pexels-photo-247932.jpeg
+[4912, MainThread, 2018-08-10 08:31:02,816, INFO] Beginning downloading image pexels-photo-265186.jpeg
+[18892, MainThread, 2018-08-10 08:31:02,819, INFO] resizing image pexels-photo-247932.jpeg
+[18892, MainThread, 2018-08-10 08:31:03,040, INFO] done resizing image pexels-photo-247932.jpeg
+[4912, MainThread, 2018-08-10 08:31:03,896, INFO] Finished downloading image pexels-photo-265186.jpeg
+[14076, MainThread, 2018-08-10 08:31:03,898, INFO] resizing image pexels-photo-265186.jpeg
+[4912, MainThread, 2018-08-10 08:31:03,898, INFO] Beginning downloading image pexels-photo-302899.jpeg
+[14076, MainThread, 2018-08-10 08:31:04,148, INFO] done resizing image pexels-photo-265186.jpeg
+[4912, MainThread, 2018-08-10 08:31:04,466, INFO] Finished downloading image pexels-photo-302899.jpeg
+[3448, MainThread, 2018-08-10 08:31:04,466, INFO] resizing image pexels-photo-302899.jpeg
+317156.jpeg
+[3448, MainThread, 2018-08-10 08:31:04,802, INFO] done resizing image pexels-photo-302899.jpeg
+[4912, MainThread, 2018-08-10 08:31:04,871, INFO] Finished downloading image pexels-photo-317156.jpeg
+[15404, MainThread, 2018-08-10 08:31:04,872, INFO] resizing image pexels-photo-317156.jpeg
+17383.jpeg
+[15404, MainThread, 2018-08-10 08:31:05,096, INFO] done resizing image pexels-photo-317156.jpeg
+[4912, MainThread, 2018-08-10 08:31:05,332, INFO] Finished downloading image pexels-photo-317383.jpeg
+[4912, MainThread, 2018-08-10 08:31:05,333, INFO] Beginning downloading image pexels-photo-320007.jpeg
+[18892, MainThread, 2018-08-10 08:31:05,337, INFO] resizing image pexels-photo-317383.jpeg
+[18892, MainThread, 2018-08-10 08:31:05,598, INFO] done resizing image pexels-photo-317383.jpeg
+[4912, MainThread, 2018-08-10 08:31:05,645, INFO] Finished downloading image pexels-photo-320007.jpeg
+[4912, MainThread, 2018-08-10 08:31:05,645, INFO] Beginning downloading image pexels-photo-322207.jpeg
+[14076, MainThread, 2018-08-10 08:31:05,645, INFO] resizing image pexels-photo-320007.jpeg
+[14076, MainThread, 2018-08-10 08:31:05,828, INFO] done resizing image pexels-photo-320007.jpeg
+[4912, MainThread, 2018-08-10 08:31:06,231, INFO] Finished downloading image pexels-photo-322207.jpeg
+[3448, MainThread, 2018-08-10 08:31:06,232, INFO] resizing image pexels-photo-322207.jpeg
+[4912, MainThread, 2018-08-10 08:31:06,232, INFO] Beginning downloading image pexels-photo-323503.jpeg
+[3448, MainThread, 2018-08-10 08:31:06,538, INFO] done resizing image pexels-photo-322207.jpeg
+[4912, MainThread, 2018-08-10 08:31:06,890, INFO] Finished downloading image pexels-photo-323503.jpeg
+[4912, MainThread, 2018-08-10 08:31:06,890, INFO] Beginning downloading image pexels-photo-324030.jpeg
+[15404, MainThread, 2018-08-10 08:31:07,157, INFO] done resizing image pexels-photo-323503.jpeg
+[4912, MainThread, 2018-08-10 08:31:07,357, INFO] Finished downloading image pexels-photo-324030.jpeg
+[4912, MainThread, 2018-08-10 08:31:07,357, INFO] Beginning downloading image pexels-photo-324655.jpeg
+[18892, MainThread, 2018-08-10 08:31:07,596, INFO] done resizing image pexels-photo-324030.jpeg
+[4912, MainThread, 2018-08-10 08:31:07,696, INFO] Finished downloading image pexels-photo-324655.jpeg
+[14076, MainThread, 2018-08-10 08:31:07,697, INFO] resizing image pexels-photo-324655.jpeg
+24658.jpeg
+[14076, MainThread, 2018-08-10 08:31:07,869, INFO] done resizing image pexels-photo-324655.jpeg
+[4912, MainThread, 2018-08-10 08:31:08,568, INFO] Finished downloading image pexels-photo-324658.jpeg
+[3448, MainThread, 2018-08-10 08:31:08,569, INFO] resizing image pexels-photo-324658.jpeg
+[4912, MainThread, 2018-08-10 08:31:08,569, INFO] Beginning downloading image pexels-photo-325520.jpeg
+[3448, MainThread, 2018-08-10 08:31:08,846, INFO] done resizing image pexels-photo-324658.jpeg
+[4912, MainThread, 2018-08-10 08:31:08,978, INFO] Finished downloading image pexels-photo-325520.jpeg
+[15404, MainThread, 2018-08-10 08:31:08,979, INFO] resizing image pexels-photo-325520.jpeg
+[4912, MainThread, 2018-08-10 08:31:08,979, INFO] Beginning downloading image pexels-photo-333529.jpeg
+[15404, MainThread, 2018-08-10 08:31:09,276, INFO] done resizing image pexels-photo-325520.jpeg
+[4912, MainThread, 2018-08-10 08:31:09,481, INFO] Finished downloading image pexels-photo-333529.jpeg
+[4912, MainThread, 2018-08-10 08:31:09,482, INFO] Beginning downloading image pexels-photo-341520.jpeg
+[18892, MainThread, 2018-08-10 08:31:09,647, INFO] done resizing image pexels-photo-333529.jpeg
+[4912, MainThread, 2018-08-10 08:31:09,832, INFO] Finished downloading image pexels-photo-341520.jpeg
+[14076, MainThread, 2018-08-10 08:31:09,832, INFO] resizing image pexels-photo-341520.jpeg
+[4912, MainThread, 2018-08-10 08:31:09,843, INFO] downloaded 26 images in 15.7750555 seconds
+[14076, MainThread, 2018-08-10 08:31:10,158, INFO] done resizing image pexels-photo-341520.jpeg
+[4912, MainThread, 2018-08-10 08:31:10,264, INFO] END make_thumbnails in 16.2503389 seconds
+[4912, MainThread, 2018-08-10 08:31:10,264, INFO] Initial size of downloads: [5627593]  Final size of images: [209303]
+
+
+[19224, MainThread, 2018-08-10 08:32:23,145, INFO] START make_thumbnails
+[19224, MainThread, 2018-08-10 08:32:23,145, INFO] Num processes: 4
+[19224, MainThread, 2018-08-10 08:32:23,165, INFO] beginning image downloads
+[19224, MainThread, 2018-08-10 08:32:23,165, DEBUG] Using selector: SelectSelector
+[19224, MainThread, 2018-08-10 08:32:23,169, INFO] Beginning downloading image pexels-photo-302899.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,036, INFO] Beginning downloading image pexels-photo-317156.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,037, INFO] Beginning downloading image pexels-photo-317383.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,038, INFO] Beginning downloading image pexels-photo-320007.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,038, INFO] Beginning downloading image pexels-photo-322207.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,040, INFO] Beginning downloading image pexels-photo-323503.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,041, INFO] Beginning downloading image pexels-photo-324030.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,042, INFO] Beginning downloading image pexels-photo-48603.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,042, INFO] Beginning downloading image pexels-photo-324655.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,043, INFO] Beginning downloading image pexels-photo-324658.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,045, INFO] Beginning downloading image pexels-photo-325520.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,047, INFO] Beginning downloading image pexels-photo-333529.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,049, INFO] Beginning downloading image pexels-photo-134392.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,050, INFO] Beginning downloading image pexels-photo-341520.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,052, INFO] Beginning downloading image pexels-photo-135130.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,054, INFO] Beginning downloading image pexels-photo-167300.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,056, INFO] Beginning downloading image pexels-photo-167921.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,057, INFO] Beginning downloading image pexels-photo-173125.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-185934.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-192454.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-193038.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-193043.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-207962.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-247917.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-247932.jpeg
+[19224, MainThread, 2018-08-10 08:32:24,058, INFO] Beginning downloading image pexels-photo-265186.jpeg
+[18720, MainThread, 2018-08-10 08:32:24,440, INFO] beginning image resizing
+[13844, MainThread, 2018-08-10 08:32:24,442, INFO] beginning image resizing
+[13248, MainThread, 2018-08-10 08:32:24,503, INFO] beginning image resizing
+[16692, MainThread, 2018-08-10 08:32:24,542, INFO] beginning image resizing
+[19224, MainThread, 2018-08-10 08:32:25,083, INFO] Finished downloading image pexels-photo-320007.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,083, INFO] resizing image pexels-photo-320007.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,137, INFO] Finished downloading image pexels-photo-185934.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,137, INFO] resizing image pexels-photo-185934.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,139, INFO] Finished downloading image pexels-photo-302899.jpeg
+[13248, MainThread, 2018-08-10 08:32:25,139, INFO] resizing image pexels-photo-302899.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,193, INFO] Finished downloading image pexels-photo-207962.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,193, INFO] resizing image pexels-photo-207962.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,201, INFO] Finished downloading image pexels-photo-192454.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,218, INFO] Finished downloading image pexels-photo-324030.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,220, INFO] Finished downloading image pexels-photo-325520.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,239, INFO] Finished downloading image pexels-photo-317156.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,255, INFO] done resizing image pexels-photo-207962.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,255, INFO] resizing image pexels-photo-192454.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,256, INFO] done resizing image pexels-photo-185934.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,256, INFO] resizing image pexels-photo-324030.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,282, INFO] Finished downloading image pexels-photo-341520.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,282, INFO] Finished downloading image pexels-photo-135130.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,318, INFO] Finished downloading image pexels-photo-48603.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,322, INFO] done resizing image pexels-photo-320007.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,322, INFO] resizing image pexels-photo-325520.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,324, INFO] Finished downloading image pexels-photo-323503.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,333, INFO] Finished downloading image pexels-photo-173125.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,398, INFO] Finished downloading image pexels-photo-134392.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,413, INFO] Finished downloading image pexels-photo-167300.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,415, INFO] Finished downloading image pexels-photo-324658.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,444, INFO] Finished downloading image pexels-photo-247932.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,455, INFO] Finished downloading image pexels-photo-167921.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,476, INFO] Finished downloading image pexels-photo-193038.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,483, INFO] Finished downloading image pexels-photo-247917.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,507, INFO] done resizing image pexels-photo-324030.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,507, INFO] resizing image pexels-photo-317156.jpeg
+[13248, MainThread, 2018-08-10 08:32:25,543, INFO] done resizing image pexels-photo-302899.jpeg
+[13248, MainThread, 2018-08-10 08:32:25,543, INFO] resizing image pexels-photo-341520.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,595, INFO] done resizing image pexels-photo-192454.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,596, INFO] resizing image pexels-photo-135130.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,603, INFO] done resizing image pexels-photo-325520.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,603, INFO] resizing image pexels-photo-48603.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,669, INFO] Finished downloading image pexels-photo-322207.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,677, INFO] Finished downloading image pexels-photo-324655.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,722, INFO] done resizing image pexels-photo-317156.jpeg
+[13844, MainThread, 2018-08-10 08:32:25,722, INFO] resizing image pexels-photo-323503.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,729, INFO] done resizing image pexels-photo-48603.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,729, INFO] resizing image pexels-photo-173125.jpeg
+[13248, MainThread, 2018-08-10 08:32:25,773, INFO] done resizing image pexels-photo-341520.jpeg
+[13248, MainThread, 2018-08-10 08:32:25,773, INFO] resizing image pexels-photo-134392.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,781, INFO] done resizing image pexels-photo-135130.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,781, INFO] resizing image pexels-photo-167300.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,826, INFO] Finished downloading image pexels-photo-193043.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,830, INFO] Finished downloading image pexels-photo-265186.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,886, INFO] done resizing image pexels-photo-173125.jpeg
+[18720, MainThread, 2018-08-10 08:32:25,886, INFO] resizing image pexels-photo-324658.jpeg
+[19224, MainThread, 2018-08-10 08:32:25,894, INFO] Finished downloading image pexels-photo-333529.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,993, INFO] done resizing image pexels-photo-167300.jpeg
+[16692, MainThread, 2018-08-10 08:32:25,993, INFO] resizing image pexels-photo-247932.jpeg
+[13844, MainThread, 2018-08-10 08:32:26,017, INFO] done resizing image pexels-photo-323503.jpeg
+[13844, MainThread, 2018-08-10 08:32:26,017, INFO] resizing image pexels-photo-167921.jpeg
+[19224, MainThread, 2018-08-10 08:32:26,027, INFO] Finished downloading image pexels-photo-317383.jpeg
+[19224, MainThread, 2018-08-10 08:32:26,035, INFO] downloaded 26 images in 2.8704177 seconds
+[13248, MainThread, 2018-08-10 08:32:26,089, INFO] done resizing image pexels-photo-134392.jpeg
+[13248, MainThread, 2018-08-10 08:32:26,089, INFO] resizing image pexels-photo-193038.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,141, INFO] done resizing image pexels-photo-324658.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,141, INFO] resizing image pexels-photo-247917.jpeg
+[16692, MainThread, 2018-08-10 08:32:26,261, INFO] done resizing image pexels-photo-247932.jpeg
+[16692, MainThread, 2018-08-10 08:32:26,261, INFO] resizing image pexels-photo-322207.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,323, INFO] done resizing image pexels-photo-247917.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,323, INFO] resizing image pexels-photo-324655.jpeg
+[13844, MainThread, 2018-08-10 08:32:26,338, INFO] done resizing image pexels-photo-167921.jpeg
+[13844, MainThread, 2018-08-10 08:32:26,338, INFO] resizing image pexels-photo-193043.jpeg
+[13248, MainThread, 2018-08-10 08:32:26,404, INFO] done resizing image pexels-photo-193038.jpeg
+[13248, MainThread, 2018-08-10 08:32:26,404, INFO] resizing image pexels-photo-265186.jpeg
+[16692, MainThread, 2018-08-10 08:32:26,507, INFO] done resizing image pexels-photo-322207.jpeg
+[16692, MainThread, 2018-08-10 08:32:26,507, INFO] resizing image pexels-photo-333529.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,509, INFO] done resizing image pexels-photo-324655.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,510, INFO] resizing image pexels-photo-317383.jpeg
+[13248, MainThread, 2018-08-10 08:32:26,561, INFO] done resizing image pexels-photo-265186.jpeg
+[13844, MainThread, 2018-08-10 08:32:26,577, INFO] done resizing image pexels-photo-193043.jpeg
+[16692, MainThread, 2018-08-10 08:32:26,654, INFO] done resizing image pexels-photo-333529.jpeg
+[18720, MainThread, 2018-08-10 08:32:26,750, INFO] done resizing image pexels-photo-317383.jpeg
+[19224, MainThread, 2018-08-10 08:32:26,798, INFO] END make_thumbnails in 3.6534820999999997 seconds
+[19224, MainThread, 2018-08-10 08:32:26,798, INFO] Initial size of downloads: [5627593]  Final size of images: [209303]
+
+

@@ -43,18 +43,18 @@ class ThumbnailMakerService(object):
         self.img_queue.put(img_filename)
         logging.info("Finished downloading image {}".format(img_filename))
 
-    # async def download_images_coro(self, img_url_list):
-    #     async with aiohttp.ClientSession() as session:
-    #         fs = []
-    #         for url in img_url_list:
-    #             fs.append(self.download_image_coro(session, url))
-    #         await asyncio.gather(*fs)
-
     async def download_images_coro(self, img_url_list):
         async with aiohttp.ClientSession() as session:
             fs = []
             for url in img_url_list:
-                asyncio.ensure_future(self.download_image_coro(session, url), loop=self._event_loop)
+                fs.append(self.download_image_coro(session, url))
+            await asyncio.gather(*fs)
+
+    # async def download_images_coro(self, img_url_list):
+    #     async with aiohttp.ClientSession() as session:
+    #         fs = []
+    #         for url in img_url_list:
+    #             asyncio.ensure_future(self.download_image_coro(session, url), loop=self._event_loop)
 
     # async def download_images_coro(self, img_url_list):
     #     async with aiohttp.ClientSession() as session:
@@ -135,10 +135,10 @@ class ThumbnailMakerService(object):
         for p in procs:
             p.join()
 
-        pending = asyncio.Task.all_tasks()
-        while(len(pending)):
-            self._event_loop.run_until_complete(asyncio.gather(*pending))
-            pending = [task for task in asyncio.Task.all_tasks() if not task.done()]
+        # pending = asyncio.Task.all_tasks()
+        # while(len(pending)):
+        #     self._event_loop.run_until_complete(asyncio.gather(*pending))
+        #     pending = [task for task in asyncio.Task.all_tasks() if not task.done()]
 
         end = time.perf_counter()
         logging.info("END make_thumbnails in {} seconds".format(end - start))
